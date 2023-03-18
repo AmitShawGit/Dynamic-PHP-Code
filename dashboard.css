@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav-toggle{
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+#menu{
+    position: relative;
+}
+#content{
+    position: absolute;
+}
+/*sidebar*/
+.vertical-nav{
+    background:url(../Back-end/imagess/girl.jpg);
+    background-attachment: fixed;
+    width: 300px;
+    height: 100vh;
+    padding-left: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    position: fixed; 
+    transform: translate(-100%);
+    z-index: 9;
+}
+.show-vertical-nav{
+    background:url(../Back-end/imagess/girl.jpg);
+    background-attachment: fixed;
+    width: 300px;
+    height: 100vh;
+    padding-left: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+     position: fixed; 
+    z-index: 9;
+   transform: translate(0%) !important;
+}
+.profile{
+    padding-top: 35px;
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+.options .category {
+    list-style: none;
+    padding: 5px;
+    font-size:20px;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    cursor: pointer;
+}
+.category a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+#bars{
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 9;
+}
+#jio{
+    margin-right: 15px;
+}
